@@ -1,1 +1,62 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI specific
+*.log  # Logs
+instance/
+*.sqlite3  # If using SQLite database (common with FastAPI)
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
 .env
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Editor backups
+*~
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.manifest
+*.spec
+
+# FastAPI ASGI server files (Uvicorn, Gunicorn)
+*.pid  # Uvicorn/Gunicorn PID files (if you use them)
